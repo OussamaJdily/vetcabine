@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Pets Cabine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar scrolled">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-cat"></i>
+                <span>Pets Cabine</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+                <a href="services.html" class="nav-link" data-i18n="nav.services">Services</a>
+                <a href="vet-verified.html" class="nav-link" data-i18n="nav.vet">Vet Verified</a>
+                <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+                <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </div>
+
+            <div class="controls">
+                <button id="theme-toggle" class="icon-btn" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="lang-switcher">
+                    <button class="icon-btn" title="Change Language">
+                        <i class="fa-solid fa-globe"></i>
+                    </button>
+                    <div class="lang-dropdown glass">
+                        <button class="lang-item" data-lang="en">English</button>
+                        <button class="lang-item" data-lang="fr">Français</button>
+                        <button class="lang-item" data-lang="ar">العربية</button>
+                    </div>
+                </div>
+                <a href="contact.html" class="btn-primary magnetic" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;"
+                    data-i18n="nav.btn">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 data-i18n="about.title" class="text-reveal"><span>Beyond the Digital Frontier</span></h2>
+                    <p data-i18n="about.subtitle">Casablanca's leading pet niche agency driving professional standards.
+                    </p>
+                </div>
+
+                <div class="grid" style="margin-bottom: 80px;">
+                    <div class="feature-item card-elite reveal" style="transition-delay: 0.1s;">
+                        <h3 data-i18n="about.vision_title">Our Vision</h3>
+                        <p data-i18n="about.vision_desc">To make Moroccan pet businesses the most professional in
+                            Africa.</p>
+                    </div>
+                    <div class="feature-item animate-up delay-2">
+                        <h3 data-i18n="about.mission_title">Our Mission</h3>
+                        <p data-i18n="about.mission_desc">Empowering pet professionals with world-class digital tools
+                            and strategies.</p>
+                    </div>
+                </div>
+
+                <div class="card glass animate-up"
+                    style="padding: 3rem; margin-top: 40px; border-left: 4px solid var(--accent);">
+                    <h3 data-i18n="about.story_title" style="margin-bottom: 1.5rem; color: var(--accent);">The Founding
+                        Story</h3>
+                    <p data-i18n="about.story_desc" style="font-size: 1.1rem; line-height: 1.8;">Founded in Casablanca
+                        by a team of pet lovers and tech experts, Pets Cabine was born out of a realization: the pet
+                        industry in Morocco deserved world-class digital standards.</p>
+                </div>
+
+                <div style="margin-top: 80px;">
+                    <div class="section-header animate-up">
+                        <h2 data-i18n="about.values_title" style="margin-bottom: 3rem;">Core Values</h2>
+                    </div>
+                    <div class="grid">
+                        <div class="card card-elite reveal"
+                            style="text-align: center; display: flex; flex-direction: column; align-items: center; padding: 2rem;">
+                            <i class="fa-solid fa-heart-pulse"
+                                style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                            <h3 data-i18n="about.v1">Pet-First Empathy</h3>
+                        </div>
+                        <div class="card card-elite reveal"
+                            style="text-align: center; transition-delay: 0.1s; display: flex; flex-direction: column; align-items: center; padding: 2rem;">
+                            <i class="fa-solid fa-microscope"
+                                style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                            <h3 data-i18n="about.v2">Data-Driven Precision</h3>
+                        </div>
+                        <div class="card card-elite reveal"
+                            style="text-align: center; transition-delay: 0.2s; display: flex; flex-direction: column; align-items: center; padding: 2rem;">
+                            <i class="fa-solid fa-map-pin"
+                                style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                            <h3 data-i18n="about.v3">Local Glocalization</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: var(--bg-secondary);">
+            <div class="container">
+                <div class="section-header animate-up">
+                    <h2 data-i18n="about.team_title">The Strategic Team</h2>
+                </div>
+
+                <div class="grid">
+                    <div class="card card-elite reveal" style="transition-delay: 0.1s;">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h3 data-i18n="about.team_lead">Strategic Director</h3>
+                        <p>Casablanca Expert</p>
+                    </div>
+                    <div class="card animate-up delay-2">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h3 data-i18n="about.team_content">Content Specialist</h3>
+                        <p>Niche Authority</p>
+                    </div>
+                    <div class="card animate-up delay-3">
+                        <i class="fa-solid fa-microchip"></i>
+                        <h3 data-i18n="about.team_tech">Tech Lead</h3>
+                        <p>Optimization Guru</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i class="fa-solid fa-cat"></i>
+                        <span>Pets Cabine</span>
+                    </a>
+                    <p data-i18n="footer.desc">The premium digital engine for Casablanca's pet industry.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+                        <li><a href="vet-verified.html" data-i18n="nav.vet">Vet Verified</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="contact.title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer.address">Casablanca,
+                                Morocco</span></li>
+                        <li><i class="fa-solid fa-envelope"></i> contact@petscabine.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copy">© 2026 Pets Cabine. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

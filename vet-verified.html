@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vet Verified | Pets Cabine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar scrolled">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-cat"></i>
+                <span>Pets Cabine</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+                <a href="services.html" class="nav-link" data-i18n="nav.services">Services</a>
+                <a href="vet-verified.html" class="nav-link" data-i18n="nav.vet">Vet Verified</a>
+                <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+                <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </div>
+
+            <div class="controls">
+                <button id="theme-toggle" class="icon-btn" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="lang-switcher">
+                    <button class="icon-btn" title="Change Language">
+                        <i class="fa-solid fa-globe"></i>
+                    </button>
+                    <div class="lang-dropdown glass">
+                        <button class="lang-item" data-lang="en">English</button>
+                        <button class="lang-item" data-lang="fr">Français</button>
+                        <button class="lang-item" data-lang="ar">العربية</button>
+                    </div>
+                </div>
+                <a href="contact.html" class="btn-primary magnetic" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;"
+                    data-i18n="nav.btn">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 data-i18n="vet.title" class="text-reveal"><span>Vet Verified Program</span></h2>
+                    <p data-i18n="vet.subtitle">The gold standard of trust for Casablanca's pet industry.</p>
+                </div>
+
+                <div class="grid">
+                    <div class="card card-elite reveal" style="transition-delay: 0.1s;">
+                        <i class="fa-solid fa-shield-cat"></i>
+                        <h3 data-i18n="vet.b1">Patient Trust</h3>
+                        <p data-i18n="vet.b1_desc">Clients feel safer choosing doctors with our verification.</p>
+                    </div>
+                    <div class="card glass animate-up delay-2">
+                        <i class="fa-solid fa-ranking-star"></i>
+                        <h3 data-i18n="vet.b2">Organic Reach</h3>
+                        <p data-i18n="vet.b2_desc">Priority ranking in our local pet maps and directories.</p>
+                    </div>
+                    <div class="card glass animate-up delay-3">
+                        <i class="fa-solid fa-award"></i>
+                        <h3 data-i18n="vet.b3">Pro Badge</h3>
+                        <p data-i18n="vet.b3_desc">A digital symbol of excellence for your website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: var(--bg-secondary);">
+            <div class="container">
+                <div class="section-header animate-up">
+                    <h2 data-i18n="vet.req_title">Audit Requirements</h2>
+                </div>
+                <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <div class="card glass reveal"
+                        style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem;">
+                        <i class="fa-solid fa-check-circle" style="color: var(--accent); font-size: 1.5rem;"></i>
+                        <p data-i18n="vet.req_l1" style="font-weight: 600;">Validated Legal Business License in Morocco
+                        </p>
+                    </div>
+                    <div class="card glass reveal"
+                        style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; transition-delay: 0.1s;">
+                        <i class="fa-solid fa-check-circle" style="color: var(--accent); font-size: 1.5rem;"></i>
+                        <p data-i18n="vet.req_l2" style="font-weight: 600;">Digital Security Audit for Patient Data
+                            Protection</p>
+                    </div>
+                    <div class="card glass reveal"
+                        style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; transition-delay: 0.2s;">
+                        <i class="fa-solid fa-check-circle" style="color: var(--accent); font-size: 1.5rem;"></i>
+                        <p data-i18n="vet.req_l3" style="font-weight: 600;">Professional Quality of Multi-lang Content
+                        </p>
+                    </div>
+                    <div class="card glass reveal"
+                        style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; transition-delay: 0.3s;">
+                        <i class="fa-solid fa-check-circle" style="color: var(--accent); font-size: 1.5rem;"></i>
+                        <p data-i18n="vet.req_l4" style="font-weight: 600;">Google Business Profile Optimization Audit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Smart Review Strategy Section -->
+        <section>
+            <div class="container">
+                <div class="contact-container" style="align-items: center;">
+                    <div class="reveal">
+                        <h2 data-i18n="vet.reviews_title" style="font-size: 2.5rem; margin-bottom: 1rem;">Smart Review
+                            Management</h2>
+                        <p data-i18n="vet.reviews_subtitle" style="color: var(--text-secondary); margin-bottom: 2rem;">
+                            Protect your reputation with our intelligent filtering system.</p>
+
+                        <div class="steps-container" style="gap: 1.5rem;">
+                            <div class="step">
+                                <div class="step-num" style="width: 30px; height: 30px; font-size: 0.9rem;">1</div>
+                                <div>
+                                    <h4 data-i18n="vet.reviews_step1">Scan QR Code</h4>
+                                    <p data-i18n="vet.reviews_step1_desc" style="font-size: 0.9rem;">Clients scan the
+                                        unique code at your reception.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-num" style="width: 30px; height: 30px; font-size: 0.9rem;">2</div>
+                                <div>
+                                    <h4 data-i18n="vet.reviews_step2">Sentiment Analysis</h4>
+                                    <p data-i18n="vet.reviews_step2_desc" style="font-size: 0.9rem;">Our system detects
+                                        positive vs negative feedback instantly.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-num" style="width: 30px; height: 30px; font-size: 0.9rem;">3</div>
+                                <div>
+                                    <h4 data-i18n="vet.reviews_step3">Smart Routing</h4>
+                                    <p data-i18n="vet.reviews_step3_desc" style="font-size: 0.9rem;">5-Star reviews go
+                                        to Google Maps. Issues go privately to you.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card glass reveal"
+                        style="padding: 3rem; text-align: center; position: relative; overflow: hidden;">
+                        <!-- Rare Pro iPhone 17 Mockup -->
+                        <div class="iphone-container"
+                            style="width: 300px; height: 620px; background: linear-gradient(135deg, #2a2a2a, #111, #2a2a2a); border-radius: 55px; padding: 12px; box-shadow: 0 30px 80px rgba(0,0,0,0.5), inset 0 0 10px rgba(255,255,255,0.1); margin: 0 auto; position: relative;">
+
+                            <!-- Titanium Frame Highlight -->
+                            <div
+                                style="position: absolute; inset: 0; border-radius: 55px; border: 2px solid rgba(255,255,255,0.1); pointer-events: none;">
+                            </div>
+
+                            <!-- Screen -->
+                            <div
+                                style="width: 100%; height: 100%; background: #000; border-radius: 45px; overflow: hidden; position: relative; display: flex; flex-direction: column;">
+
+                                <!-- Dynamic Island -->
+                                <div
+                                    style="width: 90px; height: 28px; background: #000; position: absolute; top: 12px; left: 50%; transform: translateX(-50%); border-radius: 20px; z-index: 10; display: flex; align-items: center; justify-content: center;">
+                                    <div
+                                        style="width: 8px; height: 8px; background: #1a1a1a; border-radius: 50%; margin-right: 6px;">
+                                    </div>
+                                    <div style="width: 6px; height: 6px; background: #1a1a1a; border-radius: 50%;">
+                                    </div>
+                                </div>
+
+                                <!-- UI Content -->
+                                <div
+                                    style="padding: 60px 20px 30px; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: radial-gradient(circle at top, #1e1e2e 0%, #000 60%);">
+
+                                    <div style="text-align: center;">
+                                        <h3
+                                            style="color: white; font-weight: 500; font-size: 1.2rem; margin-bottom: 5px;">
+                                            Review Hub</h3>
+                                        <p style="color: #888; font-size: 0.8rem;">Select your experience</p>
+                                    </div>
+
+                                    <!-- QR Code Area -->
+                                    <div
+                                        style="background: white; padding: 15px; border-radius: 20px; box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);">
+                                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ReviewStrategy"
+                                            alt="Review QR" style="width: 150px; height: 150px; display: block;">
+                                    </div>
+
+                                    <!-- Actions -->
+                                    <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+                                        <!-- Good Experience -->
+                                        <div
+                                            style="background: rgba(34, 197, 94, 0.15); border: 1px solid rgba(34, 197, 94, 0.3); padding: 12px; border-radius: 16px; display: flex; align-items: center; gap: 12px; backdrop-filter: blur(10px);">
+                                            <div
+                                                style="width: 32px; height: 32px; background: #22c55e; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: black; font-size: 0.9rem;">
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div style="text-align: left;">
+                                                <div style="color: white; font-size: 0.85rem; font-weight: 600;">Great
+                                                    Experience</div>
+                                                <div style="color: #86efac; font-size: 0.7rem;">Share on Google Maps
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-chevron-right"
+                                                style="margin-left: auto; color: #22c55e; font-size: 0.8rem;"></i>
+                                        </div>
+
+                                        <!-- Bad Experience -->
+                                        <div
+                                            style="background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); padding: 12px; border-radius: 16px; display: flex; align-items: center; gap: 12px; backdrop-filter: blur(10px);">
+                                            <div
+                                                style="width: 32px; height: 32px; background: #ef4444; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem;">
+                                                <i class="fa-solid fa-message"></i>
+                                            </div>
+                                            <div style="text-align: left;">
+                                                <div style="color: white; font-size: 0.85rem; font-weight: 600;">Needs
+                                                    Improvement</div>
+                                                <div style="color: #fca5a5; font-size: 0.7rem;">Direct Private Feedback
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-chevron-right"
+                                                style="margin-left: auto; color: #ef4444; font-size: 0.8rem;"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Home Bar -->
+                                <div
+                                    style="width: 120px; height: 5px; background: rgba(255,255,255,0.5); border-radius: 10px; position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);">
+                                </div>
+                            </div>
+                        </div>
+                        <p
+                            style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.6; letter-spacing: 1px; text-transform: uppercase;">
+                            Titanium Edition • Review OS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="section-header animate-up">
+                <h2 data-i18n="vet.steps_title">How to Join</h2>
+            </div>
+
+            <div class="steps-container">
+                <div class="step reveal">
+                    <div class="step-num">1</div>
+                    <div>
+                        <h3 data-i18n="vet.s1">Application Submission</h3>
+                        <p data-i18n="vet.s1_desc">Send us your clinic or business documentation for review.</p>
+                    </div>
+                </div>
+                <div class="step animate-up delay-2">
+                    <div class="step-num">2</div>
+                    <div>
+                        <h3 data-i18n="vet.s2">Standard Compliance Audit</h3>
+                        <p data-i18n="vet.s2_desc">We verify your digital security and professional standards.</p>
+                    </div>
+                </div>
+                <div class="step animate-up delay-3">
+                    <div class="step-num">3</div>
+                    <div>
+                        <h3 data-i18n="vet.s3">Certification Awarded</h3>
+                        <p data-i18n="vet.s3_desc">Receive your certificate and digital badge assets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i class="fa-solid fa-cat"></i>
+                        <span>Pets Cabine</span>
+                    </a>
+                    <p data-i18n="footer.desc">The premium digital engine for Casablanca's pet industry.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+                        <li><a href="vet-verified.html" data-i18n="nav.vet">Vet Verified</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="contact.title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer.address">Casablanca,
+                                Morocco</span></li>
+                        <li><i class="fa-solid fa-envelope"></i> contact@petscabine.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copy">© 2026 Pets Cabine. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="icon-btn"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
